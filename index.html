@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .font-inter{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+
+</head>
+<body class="mx-3 md:mx-[60px] lg:mx-[60px] font-inter">
+    <header>
+        <section class="border-b-2	 border-[#17171733] pt-[20px] md:pt-[50px] lg:pt-[50px] pb-8 mb-8">
+            <div class="navbar gap-5 text-center md:text-left lg:text-center md:gap-30  flex flex-col  md:flex md:flex-row lg:flex lg:flex-row ">
+                <div class="navbar-start">
+                    <img  src="./Logo.png" alt="">
+                </div>
+                <div class="navbar-center">
+                    <button class="px-5 py-[10px] bg-[#25222233] rounded text-[18px] font-medium text-black" >Sort by view</button>
+                </div>
+                <div class="navbar-end">
+                    <button class="px-5 py-[10px] bg-[#FF1F3D] rounded text-[18px] font-medium text-white mx-auto md:mx-0 lg:mx-0">Blog</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="flex flex-wrap md:flex-nowrap lg:flex-nowrap gap-[23.5px] justify-center pb-10">
+            <div>
+                <button id="all" class="px-5 py-2 bg-[#25222233] text-[18px] font-medium rounded" >All</button>
+            </div>
+            <div>
+                <button id="music" class="px-5 py-2 bg-[#25222233] text-[18px] font-medium rounded" >Music</button>
+            </div>
+            <div>
+                <button id="comedy" class="px-5 py-2 bg-[#25222233] text-[18px] font-medium rounded" >Comedy</button>
+            </div>
+            <div>
+                <button id="drawing" class="px-5 py-2 bg-[#25222233] text-[18px] font-medium rounded" >Drawing</button>
+            </div>
+        </div>
+        <div id="container" class="grid grid-cols-1 md:flex md:flex-wrap md:gap-5 lg:grid lg:grid-cols-4 lg:gap-6">
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./data.js"></script>
+</body>
+</html>
