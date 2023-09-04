@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .font-inter{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+
+</head>
+<body class="mx-5 md:mx-[60px] lg:mx-[60px] font-inter">
+    <header>
+        <div class="border-b-2	 border-[#17171733] pt-[20px] md:pt-[50px] lg:pt-[50px] pb-8 mb-8" >
+            <div class=" flex justify-center" >
+                <img  src="./Logo.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section >
+            <div>
+                <h1 class="text-3xl font-bold pb-2 text-black text-justify">Discuss the scope of var, let, and const</h1>
+                <p class="text-lg font-normal text-justify pb-5" > In JavaScript, the scope of variables declared with var is function-level, meaning they are accessible within the function in which they are defined, and can also suffer from variable hoisting, where they are moved to the top of their containing function. On the other hand, variables declared with let and const have block-level scope, limiting their accessibility to the block in which they are defined, such as loops or conditional statements. Variables declared with let can be reassigned, while those declared with const are constant and cannot be reassigned after initialization, although their properties can be modified in the case of objects and arrays. This distinction allows for more fine-grained control over variable scope and mutability in JavaScript. </p>
+            </div>
+            <div>
+                <h1 class="text-3xl font-bold pb-2 text-black">Tell us the use cases of null and undefined</h1>
+                <p class="text-lg font-normal text-justify pb-5" >null and undefined are two distinct values in JavaScript with specific use cases. null is typically used to indicate the intentional absence of any object value or a variable that should have no value or reference to an object. It's often set explicitly by a developer to represent emptiness. undefined, on the other hand, is used to signify that a variable has been declared but hasn't been assigned any value yet. It's the default value for function parameters that are not provided and for variables declared without an initialization. Understanding and using them correctly is crucial in JavaScript to prevent unexpected behavior and errors in your code.</p>
+            </div>
+            <div>
+                <h1 class="text-3xl font-bold pb-2 text-black">Discuss the scope of var, let, and const</h1>
+                <p class="text-lg font-normal text-justify pb-5" > In JavaScript, the scope of variables declared with var is function-level, meaning they are accessible within the function in which they are defined, and can also suffer from variable hoisting, where they are moved to the top of their containing function. On the other hand, variables declared with let and const have block-level scope, limiting their accessibility to the block in which they are defined, such as loops or conditional statements. Variables declared with let can be reassigned, while those declared with const are constant and cannot be reassigned after initialization, although their properties can be modified in the case of objects and arrays. This distinction allows for more fine-grained control over variable scope and mutability in JavaScript.</p>
+            </div>
+
+        </section>
+        <!-- <section class="pb-10">
+            <div class="flex justify-center">
+                <button id="exit" class="px-5 py-[8px] bg-[#FF1F3D] rounded text-[18px] font-medium text-white mx-auto md:mx-0 lg:mx-0">Exit</button>
+
+            </div>
+        </section> -->
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./data.js"></script>
+</body>
+</html>

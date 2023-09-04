@@ -60,7 +60,7 @@ document.getElementById('all').addEventListener('click', function () {
                         verifiedElement.classList.remove('hidden');
                     }
             }
-            const p=document.getElementById('post-time')
+            // const p=document.getElementById('post-time')
             // if (element.others.posted_date.length==0){
             //     p.innerText=''
             // }else{
@@ -281,5 +281,12 @@ document.getElementById('drawing').addEventListener('click', function () {
         }   
     }
 );
-
+// ---------------------blog---------------------
+document.getElementById('blog-button').addEventListener('click', function () { 
+    window.location.href = "./blog.html";
+});
+// document.getElementById('exit').addEventListener('click', function () { 
+//     window.location.href = "./index.html";
+//     console.log('exit');
+// });
 
