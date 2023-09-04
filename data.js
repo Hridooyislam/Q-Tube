@@ -60,31 +60,6 @@ document.getElementById('all').addEventListener('click', function () {
                         verifiedElement.classList.remove('hidden');
                     }
             }
-            // const p=document.getElementById('post-time')
-            // if (element.others.posted_date.length==0){
-            //     p.innerText=''
-            // }else{
-            //     document.getElementById('post-date').classList.remove('hidden')
-            //     function formatTimeAgo(timestamp) {
-            //         const hours = Math.floor(timestamp / 60);
-            //         const minutes = timestamp % 60;
-                
-            //         if (hours > 0 && minutes > 0) {
-            //             return `${hours} hrs ${minutes} min ago`;
-            //         } else if (hours > 0) {
-            //             return `${hours} hrs ago`;
-            //         } else if (minutes > 0) {
-            //             return `${minutes} min ago`;
-            //         } else {
-            //             return `just now`;
-            //         }
-            //     }
-                
-            //     const timestamp = element.others.posted_date; 
-            //     const formattedTimeAgo = formatTimeAgo(timestamp);
-            //     console.log(formattedTimeAgo); 
-            //     p.innerText=formattedTimeAgo  
-            // }
             document.getElementById('container').appendChild(div);
             });
                 
